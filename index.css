@@ -2,31 +2,44 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul, div ul{
+nav ul, footer ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+}
+div ul{
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
 }
 nav ul li, footer ul li {
     display: inline;
     text-align:center
     padding: 100px;
 }
-.contacts{
-    text-align:center
-}
-a {
+
+a.directory {
     text-decoration: none;
-    color: #000;
+    color: #999;
 
 }
+a.contacts {
+    text-decoration: none;
+    color: #000;
+}
+a.header {
+    text-decoration: none;
+    color: #000;
+}
+
 .container{
     text-align:center
 }
 .contacts{
     text-align:center
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
+    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
     color: #999;
 }
 img{
