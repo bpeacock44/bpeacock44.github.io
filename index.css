@@ -9,14 +9,14 @@ nav ul, footer ul{
     font-weight: bold;
 }
 div ul{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
 }
 nav ul li, footer ul li {
     display: inline;
     text-align:center
-    padding: 100px;
+    margin-right: 20px
 }
 
 a.directory {
@@ -26,11 +26,9 @@ a.directory {
 }
 a.contacts {
     text-decoration: none;
-    color: #000;
 }
 a.header {
     text-decoration: none;
-    color: #000;
 }
 
 .container{
@@ -53,7 +51,6 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
     text-align: center; font-weight: 100
-    color: #000;
 }
 h2 {
     font-size: 2em;
