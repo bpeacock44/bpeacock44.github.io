@@ -17,10 +17,10 @@ a {
     color: #999;
 
 }
-div {
+.container{
     text-align:center
 }
-img {
+img{
     display:inline-block
 }
 a:hover {
@@ -28,8 +28,8 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    text-align: center;
+    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
+    text-align: center; font-weight: 100
 }
 p {
     font-size: 1.5em;
