@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul {
+nav ul, footer ul, div ul{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -10,7 +10,11 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    text-align:center
+    padding: 0px;
+}
+.contacts{
+    text-align:center
 }
 a {
     text-decoration: none;
@@ -19,6 +23,11 @@ a {
 }
 .container{
     text-align:center
+}
+.contacts{
+    text-align:center
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #999;
 }
 img{
     display:inline-block
@@ -30,9 +39,10 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
     text-align: center; font-weight: 100
+    color: #000;
 }
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
     text-align: center; font-weight: 100
 }
