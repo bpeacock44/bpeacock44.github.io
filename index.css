@@ -29,6 +29,9 @@ a.contacts {
 }
 a.header {
     text-decoration: none;
+    font-size: 3em;
+    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
+    text-align: center; font-weight: 100
 }
 
 .container{
