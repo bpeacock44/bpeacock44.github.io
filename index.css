@@ -23,13 +23,13 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-div {
-    text-align: center;
-}
-
 a {
     text-decoration: none;
     color: #999;
+}
+
+.container {
+    text-align: center;
 }
 
 a.header {
