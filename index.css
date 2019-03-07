@@ -57,7 +57,7 @@ h2 {
     text-align: center;
 }
 
-img {
+.center {
     display: inline;
     margin-left: auto;
     margin-right: auto;
