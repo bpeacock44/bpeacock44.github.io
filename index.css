@@ -11,14 +11,14 @@ nav ul, footer ul, div ul{
 nav ul li, footer ul li {
     display: inline;
     text-align:center
-    padding: 0px;
+    padding: 100px;
 }
 .contacts{
     text-align:center
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #000;
 
 }
 .container{
@@ -34,6 +34,7 @@ img{
 }
 a:hover {
     text-decoration: underline;
+
 }
 h1 {
     font-size: 3em;
