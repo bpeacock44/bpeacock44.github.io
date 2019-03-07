@@ -2,79 +2,45 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav ul, footer ul{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+
+nav ul, footer ul {
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align: center;
 }
-div ul{
-    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
-    padding: 0px;
+
+div ul {
+    font-family: 'Helvetica Neue', 'Arial', 'Sans-Serif';
     list-style: none;
+    text-align: center;
+    font-size: 1.5em;
 }
+
 nav ul li, footer ul li {
     display: inline;
-    text-align:center
-    margin-right: 20px
+    margin-right: 20px;
 }
 
-a.directory {
+a {
     text-decoration: none;
     color: #999;
+}
 
-}
-a.contacts {
-    text-decoration: none;
-}
 a.header {
     text-decoration: none;
-    font-size: 3em;
-    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
-    text-align: center; font-weight: 100
+    color: #000;
 }
 
-.container{
-    text-align:center
-}
-.contacts{
-    text-align:center
-    font-size: 1.5em;
-    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
-    color: #999;
-}
-img{
-    display:inline-block
-}
 a:hover {
     text-decoration: underline;
-
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
-    text-align: center; font-weight: 100
-}
-h2 {
-    font-size: 2em;
-    font-family:'Helvetica Neue', 'Arial', 'Sans-Serif';
-    text-align: center; font-weight: 100
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    text-align: center;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
